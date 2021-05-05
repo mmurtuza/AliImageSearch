@@ -1,0 +1,52 @@
+
+Region      Country	                Domain name	        Since
+
+Americas	Brazil	                amazon.com.br	    December 2012
+            Canada	                amazon.ca	        June 2002
+            Mexico	                amazon.com.mx	    August 2013
+            United States	        amazon.com	        July 1995
+
+Asia	    China	                amazon.cn	        September 2004
+            India	                amazon.in	        June 2013
+            Japan	                amazon.co.jp	    November 2000
+            Singapore	            amazon.sg	        July 2017
+            Turkey	                amazon.com.tr	    September 2018
+            U.Arab Emirates	        amazon.ae	        May 2019
+            Saudi Arabia	        amazon.sa	        June 2020
+
+
+Europe	    France	                amazon.fr	        August 2000
+            Germany	                amazon.de	        October 1998
+            Italy	                amazon.it	        November 2010
+            Netherlands	            amazon.nl	        November 2014
+            Poland	                amazon.pl	        March 2021
+            Spain	                amazon.es	        September 2011
+            Sweden	                amazon.se	        October 2020
+            United Kingdom	        amazon.co.uk	    October 1998
+            Oceania	Australia	    amazon.com.au	    November 2017
+
+
+            "matches": [
+            "https://*.amazon.com/*",
+            "https://*.amazon.com.au/*",
+            "https://*.amazon.co.uk/*",
+            "https://*.amazon.ca/*",
+            "https://*.amazon.com.br/*",
+            "https://*.amazon.com.mx/*",
+            "https://*.amazon.com.au/*",
+            "https://*.amazon.com.tr/*",
+            "https://*.amazon.co.jp/*",
+            "https://*.amazon.cn/*",
+            "https://*.amazon.in/*",
+            "https://*.amazon.sg/*",
+            "https://*.amazon.ae/*",
+            "https://*.amazon.sa/*",
+            "https://*.amazon.fr/*",
+            "https://*.amazon.de/*",
+            "https://*.amazon.it/*",
+            "https://*.amazon.nl/*",
+            "https://*.amazon.pl/*",
+            "https://*.amazon.es/*",
+            "https://*.amazon.se/*"
+        ],
+        "exclude_globs": ["https://*.amazon.com/s*"],
